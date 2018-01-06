@@ -2,7 +2,8 @@
 
 import os
 import unittest
-from PyProperties import PyProperties
+
+from py_properties.PyProperties import PyProperties
 
 
 class PyPropertiesTestCase(unittest.TestCase):
