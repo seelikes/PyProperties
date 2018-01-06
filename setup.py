@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as readme:
 
 setup(
     name='PyProperties',
-    version='1.0.12',
+    version='1.0.13',
     description='Python library operating with java properties file',
     long_description=long_description,
     url='https://github.com/seelikes/PyProperties',
