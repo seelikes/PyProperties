@@ -6,12 +6,12 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.md'), encoding='utf-8') as readme:
+with open(path.join(here, 'README.rst'), encoding='utf-8') as readme:
     long_description = readme.read()
 
 setup(
     name='PyProperties',
-    version='1.0.00',
+    version='1.0.11',
     description='Python library operating with java properties file',
     long_description=long_description,
     url='https://github.com/seelikes/PyProperties',
